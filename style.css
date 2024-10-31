@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    font-family: "Itim", cursive;
+}
+.navbar.custom-navbar {
+    background-color: pink !important;
+}
+
+.btn.tombol {
+    border: 1px solid palevioletred;
+    color: palevioletred;
+
+}
+
+.btn.tombol:hover {
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+}
+.btn.tombol:active {
+    background-color: palevioletred;
+}
+.carousel.slide .carousel-inner {
+    height: 92vh !important;
+}
+.custom-input.form-control:focus {
+    border: none !important;
+    outline: palevioletred solid 4px;
+}
